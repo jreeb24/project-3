@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <title>Project 3</title>
+        <meta name="description" content="Demo code for class">
+        <link href="../css/overrides.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div id="top">
+            <h1>Top</h1>
+        </div>
+        <div id="middle" class="gray center">
+            <h1>Middle</h1>
+        </div>
+        <div id="bottom" class="right blue">
+            <h1>Bottom</h1>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="container">
+            <div id="middleTop">
+                <h1>Left</h1>
+            </div>
+            <div id="middleMiddle" class="gray center">
+                <h1>Middle</h1>
+            </div>
+            <div id="middleBottom" class="right blue">
+                <h1>Right</h1>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="cell small-4 large-4">
+                    <h1 class="newFont">0 Left</h1>
+                </div>
+                <div class="cell small-4 large-4 gray center">
+                    <h1 class="newFont">1 Middle</h1>
+                </div>
+                <div class="cell small-4 large-4 blue right">
+                    <h1 class="newFont">2 Right</h1>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <form class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="cell small-12 large-12">
+                    <h3>Who is your favorite teacher?</h3>
+                    <label>
+                        <input type="radio" name="favTeacher">Doctor Professor Howard Bates
+                    </label>
+                </div>
+                <div class="cell small-12 large-12">
+                    <label for="whyFavorite">Why is Howard Bates your favorite teacher?</label>
+                    <textarea id="whyFavorite"></textarea>
+                </div>
+            </div>
+            <div class="grid-x grid-margin-x">
+                <div class="cell small-12 large-12">
+                    <a class="success button large expanded">Submit</a>
+                </div>
+            </div>
+        </form>
+
+    </body>
+</html>
